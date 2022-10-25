@@ -1,0 +1,96 @@
+:root {
+    --blue: hsl(223, 87%, 63%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+
+    --libre-franklin: 'Libre Franklin';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--libre-franklin);
+    margin: 6rem 2rem 2.5rem 2rem;
+}
+
+.logo {
+    width: 3.5rem;
+}
+
+h1 {
+    font-size: 1.40rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+}
+
+h1 a {
+    color: var(--gray);
+    font-weight: 300;
+}
+
+.call {
+    font-size: .75rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.25rem;
+    margin-bottom: 4.5rem;
+}
+
+::-webkit-input-placeholder {
+    color: var(--pale-blue);
+}
+
+input {
+    color: var(--pale-blue);
+    height: 35px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    border-width: 1px;
+    border-color: var(--pale-blue);
+    margin-bottom: .75rem;
+}
+
+button {
+    width: 18rem;
+    height: 40px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    border-width: 0;
+    font-weight: 400;
+    color: white;
+    background-color: var(--blue);
+}
+
+.dashboard {
+    width: 100%;
+}
+
+.redes {
+    display: flex;
+}
+
+.redes img {
+    height: 15px;
+    margin: 7rem 1rem 2rem 1rem;
+
+}
+
+.copyright {
+    color: var(--gray);
+    font-size: .70rem;
+}
+
+
+  .attribution {
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+}
