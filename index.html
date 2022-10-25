@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
-  <link href="reset.css" rel="stylessheet">
-  <link href="style.css" rel="stylessheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Ping coming soon page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Ping coming soon page</title>
+  </head>
+  <body>
+    <img class="logo" src="./images/logo.svg" alt="Ping Logo">
 
-  <img src="./images/logo.svg" alt="Ping Logo">
+    <h1><a>We are launching</a> soon!</h1>
 
-  <h1>We are launching soon!</h1>
+    <p class="call">Subscribe and get notified</p>
 
-  <p>Subscribe and get notified</p>
+    <form action="#" method="post">
+      <label for="email"></label>
+      <input type="email" id="email" inputmode="email" placeholder="Your email address..." autocomplete="on"/>
 
-  <button>Notify Me</button>
+      <button type="submit">Notify Me</button>
+    </form>
 
-  <img src="./images/illustration-dashboard.png" alt="Dashboard">
+    <img class="dashboard" src="./images/illustration-dashboard.png" alt="Dashboard">
 
-  <p>&copy; Copyright Ping. All rights reserved.</p>
+    <div class="redes">
+      <a href="https://github.com/Israel-Carneiro"><img src="./images/github.svg"></a>
+      <a href="https://www.linkedin.com/in/israel-carneiro-de-oliveira/"><img src="./images/linkedin-in.svg"></a>
+      <a href="https://www.instagram.com/webcarneiro/"><img src="./images/instagram.svg"></a>
+    </div>
 
-  <footer>
+    <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
     <!--
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
     -->
-  </footer>
-</body>
+  </body>
 </html>
