@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
     <link href="reset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
     <title>Ping coming soon page</title>
   </head>
   <body>
@@ -16,9 +18,10 @@
 
     <p class="call">Subscribe and get notified</p>
 
-    <form action="#" method="post">
+    <form name="form1" action="#" method="post">
       <label for="email"></label>
-      <input type="email" id="email" inputmode="email" placeholder="Your email address..." autocomplete="on"/>
+      <input name="email" type="email" id="email" inputmode="email" placeholder="Your email address..." onblur="validacaoEmail(form1.email)" autocomplete="on"/>
+      <div class="alert">Please provide a valid email address</div>
 
       <button type="submit">Notify Me</button>
     </form>
