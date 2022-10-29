@@ -30,7 +30,7 @@ E esta é uma prévia de uma tela de celular (com largura de tela menor que 1024
 
 ## Construção do projeto
 
->Primeiro passo, estruturar o arquivo index.html de forma semantica como boas praticas;
->Segundo, buscar as fontes utilizadas em https://fonts.google.com/ e declarar no cabeçalho assim também como as paginas de estilo reset.css e style.css;
->Terceiro, começar a estilização da pagina pelo style.css a partir da estratégia "Mobile First";
->Quarto, implementar o display responsivo para desktop a partir de 1024px;
+>Primeiro passo, estruturar o arquivo index.html de forma semantica como boas praticas;<br>
+>Segundo, buscar as fontes utilizadas em https://fonts.google.com/ e declarar no cabeçalho assim também como as paginas de estilo reset.css e style.css;<br>
+>Terceiro, começar a estilização da pagina pelo style.css a partir da estratégia "Mobile First";<br>
+>Quarto, implementar o display responsivo para desktop a partir de 1024px;<br>
