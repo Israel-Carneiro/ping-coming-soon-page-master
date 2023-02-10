@@ -34,3 +34,8 @@ E esta é uma prévia de uma tela de celular (com largura de tela menor que 1024
 >Segundo, buscar as fontes utilizadas em https://fonts.google.com/ e declarar no cabeçalho assim também como as paginas de estilo reset.css e style.css;<br>
 >Terceiro, começar a estilização da pagina pelo style.css a partir da estratégia "Mobile First";<br>
 >Quarto, implementar o display responsivo para desktop a partir de 1024px;<br>
+
+## Referência
+* Este é um desafio proposto por Front End Mentor.
+* O Front End Mentor oferece apenas uma amostra do resultado esperado e o material para realizá-lo.
+* Não há instruções ou dicas de como realizar o desafio, deixando toda e qualquer decisão a pedido de quem o realiza.
