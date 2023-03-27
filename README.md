@@ -39,3 +39,13 @@ E esta é uma prévia de uma tela de celular (com largura de tela menor que 1024
 * Este é um desafio proposto por Front End Mentor.
 * O Front End Mentor oferece apenas uma amostra do resultado esperado e o material para realizá-lo.
 * Não há instruções ou dicas de como realizar o desafio, deixando toda e qualquer decisão a pedido de quem o realiza.
+
+## Autor
+
+### Israel Carneiro de Oliveira
+ 
+<table border: none;" border="0" cellpadding="0">
+ <td>
+  <img width="200px" src="https://avatars.githubusercontent.com/u/113190387?s=400&u=3c497e66670ff827854b02bfd769529a19c9b5b1&v=4" rel="foto Israel Carneiro" />
+ </td>
+</table>
